@@ -1,0 +1,164 @@
+2024-08-28 09:50:03 DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:50:03 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 09:50:03 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:50:03 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:50:03 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:50:03 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:50:03 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:50:03 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:50:03 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:50:14 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1615863646<open>)] for JPA transaction
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.example.day2week3.Service.SanPhamSerivce.addService]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@2d8636ba]
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1615863646<open>)] for JPA transaction
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1615863646<open>)]
+2024-08-28 09:50:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2024-08-28 09:50:14 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:55:28 INFO  c.e.day2week3.Day2Week3Application - Starting Day2Week3Application using Java 17.0.11 with PID 19428 (D:\day2-week3\target\classes started by Admin in D:\day2-week3)
+2024-08-28 09:55:28 INFO  c.e.day2week3.Day2Week3Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 09:55:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 09:55:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2024-08-28 09:55:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-28 09:55:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 09:55:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-28 09:55:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 09:55:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 720 ms
+2024-08-28 09:55:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 09:55:29 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f736d00
+2024-08-28 09:55:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 09:55:29 DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:55:29 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 09:55:29 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-28 09:55:29 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-28 09:55:29 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 09:55:30 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28 09:55:30 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:55:30 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:55:30 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:55:30 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:55:30 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:55:30 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:55:30 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-28 09:55:30 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:55:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-28 09:55:30 INFO  c.e.day2week3.Day2Week3Application - Started Day2Week3Application in 2.181 seconds (process running for 2.506)
+2024-08-28 09:55:33 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 09:55:33 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 09:55:33 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-28 09:55:33 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(445769073<open>)] for JPA transaction
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.example.day2week3.Service.SanPhamSerivce.addService]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@18401679]
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(445769073<open>)] for JPA transaction
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2024-08-28 09:55:33 WARN  c.e.d.c.ReadOnlyTransactionAspect - Phương thức addService đánh dấu là readOnly nhưng có thể thực hiện thao tác ghi dữ liệu
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(445769073<open>)]
+2024-08-28 09:55:33 DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2024-08-28 09:55:34 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:58:09 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(363136443<open>)] for JPA transaction
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.example.day2week3.Service.SanPhamSerivce.addService]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1b62f97f]
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(363136443<open>)] for JPA transaction
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2024-08-28 09:58:09 WARN  c.e.d.c.ReadOnlyTransactionAspect - Phương thức addService đánh dấu là readOnly nhưng có thể thực hiện thao tác ghi dữ liệu
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(363136443<open>)]
+2024-08-28 09:58:09 DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2024-08-28 09:58:09 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:58:18 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1763681604<open>)] for JPA transaction
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.example.day2week3.Service.SanPhamSerivce.addService]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@67d84617]
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1763681604<open>)] for JPA transaction
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2024-08-28 09:58:18 WARN  c.e.d.c.ReadOnlyTransactionAspect - Phương thức addService đánh dấu là readOnly nhưng có thể thực hiện thao tác ghi dữ liệu
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1763681604<open>)]
+2024-08-28 09:58:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2024-08-28 09:58:18 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:59:00 INFO  c.e.day2week3.Day2Week3Application - Starting Day2Week3Application using Java 17.0.11 with PID 22680 (D:\day2-week3\target\classes started by Admin in D:\day2-week3)
+2024-08-28 09:59:00 INFO  c.e.day2week3.Day2Week3Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 09:59:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 09:59:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2024-08-28 09:59:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-28 09:59:01 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 09:59:01 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-28 09:59:01 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 09:59:01 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 621 ms
+2024-08-28 09:59:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 09:59:01 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4262fdeb
+2024-08-28 09:59:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 09:59:01 DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:59:01 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 09:59:01 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-28 09:59:01 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-28 09:59:01 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 09:59:01 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28 09:59:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:59:02 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:02 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:02 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:02 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:02 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:02 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-28 09:59:02 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-28 09:59:02 INFO  c.e.day2week3.Day2Week3Application - Started Day2Week3Application in 2.111 seconds (process running for 2.422)
+2024-08-28 09:59:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 09:59:05 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 09:59:05 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-28 09:59:05 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:59:05 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(286472006<open>)] for JPA transaction
+2024-08-28 09:59:05 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2024-08-28 09:59:05 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@2e448197]
+2024-08-28 09:59:05 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2024-08-28 09:59:05 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(286472006<open>)]
+2024-08-28 09:59:05 DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2024-08-28 09:59:05 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 09:59:57 INFO  c.e.day2week3.Day2Week3Application - Starting Day2Week3Application using Java 17.0.11 with PID 21036 (D:\day2-week3\target\classes started by Admin in D:\day2-week3)
+2024-08-28 09:59:57 INFO  c.e.day2week3.Day2Week3Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 09:59:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 09:59:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2024-08-28 09:59:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-28 09:59:58 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 09:59:58 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-28 09:59:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 09:59:58 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 656 ms
+2024-08-28 09:59:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 09:59:58 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e22368c
+2024-08-28 09:59:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 09:59:58 DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:59:58 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 09:59:58 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-28 09:59:58 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-28 09:59:58 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 09:59:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28 09:59:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 09:59:59 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:59 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:59 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:59 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:59 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:59 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-28 09:59:59 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2024-08-28 09:59:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-28 09:59:59 INFO  c.e.day2week3.Day2Week3Application - Started Day2Week3Application in 2.13 seconds (process running for 2.439)
+2024-08-28 10:00:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 10:00:02 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 10:00:02 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-28 10:00:02 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(750244702<open>)] for JPA transaction
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.example.day2week3.Service.SanPhamSerivce.addService]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1c222ac9]
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(750244702<open>)] for JPA transaction
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2024-08-28 10:00:02 WARN  c.e.d.c.ReadOnlyTransactionAspect - Phương thức addService đánh dấu là readOnly nhưng có thể thực hiện thao tác ghi dữ liệu
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(750244702<open>)]
+2024-08-28 10:00:02 DEBUG o.s.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
+2024-08-28 10:00:02 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
