@@ -30,7 +30,7 @@ public class ChatLieuController {
     @PostMapping("/add")
     public ChatLieu add(@RequestBody ChatLieu chatLieu){
          chatLieu.getSanPhams().forEach(o -> {
-             sanPhamRepository.getOne(o.getId()).setChatLieu(chatLieu);
+            sanPhamRepository.getOne(o.getId()).setChatLieu(chatLieu);
          });
         return chatLieuRepository.save(chatLieu);
     }
